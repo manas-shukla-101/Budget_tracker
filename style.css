@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section {
+    background-color: #f7f7f7; /* Changed from #fff to a light gray */
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+input[type="number"], input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2; /* Added a light gray background */
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9; /* Changed from white to a light gray */
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+#pie-chart {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #f7f7f7; /* Changed from white to a light gray */
+}
+#pie-chart {
+    width: 300px;
+    height: 300px;
+}
+#pie-chart {
+    border: 1px solid black;
+    margin: 20px auto;
+    display: block;
+}

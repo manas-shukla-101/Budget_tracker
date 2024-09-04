@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Budget Tracker</h1>
+    </header>
+    <main>
+        <section class="income">
+            <h2>Income</h2>
+            <input type="number" id="income" placeholder="Enter income">
+            <button id="add-income">Add Income</button>
+            <ul id="income-list"></ul>
+        </section>
+        <section class="expenses">
+            <h2>Expenses</h2>
+            <input type="text" id="expense" placeholder="Enter expense">
+            <input type="number" id="amount" placeholder="Enter amount">
+            <button id="add-expense">Add Expense</button>
+            <ul id="expense-list"></ul>
+        </section>
+        <section class="budget">
+            <h2>Budget</h2>
+            <p id="total-income">Total Income: $0</p>
+            <p id="total-expenses">Total Expenses: $0</p>
+            <p id="balance">Balance: $0</p>
+            <canvas id="pie-chart" width="400" height="400"></canvas>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
