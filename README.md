@@ -1,8 +1,7 @@
 Budget Tracker
 
 A modern, responsive web application for tracking your income and expenses with intuitive visualizations.
-
-(https://github.com/manas-shukla-101/Budget_tracker/blob/a995e426c0b1b3b19365917b574e4fe730115c90/Screenshot_20250824-150954.png)
+![Budget Tracker Preview](https://github.com/manas-shukla-101/Budget_tracker/blob/a995e426c0b1b3b19365917b574e4fe730115c90/Screenshot_20250824-150954.png)
 
 🌟 Features
 
